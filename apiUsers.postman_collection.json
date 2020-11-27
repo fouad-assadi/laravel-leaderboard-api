@@ -1,0 +1,263 @@
+{
+	"id": "2d60ca21-97a3-f501-12aa-de44147671db",
+	"name": "apiUsers",
+	"description": "",
+	"order": [
+		"9a4698cb-8522-2d3e-ea97-b10e2ad934c0",
+		"fe5c0459-26b8-7218-375a-66d23cf78e93",
+		"c4e9fc01-b464-d47e-263b-0f5825742bc6",
+		"40da110e-09b2-dfd4-3488-8194e5dceb80",
+		"bea27f9a-9304-b2e6-9f84-5caa08bf4de2",
+		"b691671c-1d72-c785-54f5-774a63c43c08"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1606342755288,
+	"owner": "13445558",
+	"public": false,
+	"requests": [
+		{
+			"id": "40da110e-09b2-dfd4-3488-8194e5dceb80",
+			"headers": "Content-Type: application/json\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/32",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "name",
+					"value": "Update Test",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "age",
+					"value": "20",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "points",
+					"value": "91",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "address",
+					"value": "Test Address",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1606382282476,
+			"name": "update",
+			"description": "Update user",
+			"collectionId": "2d60ca21-97a3-f501-12aa-de44147671db",
+			"responses": []
+		},
+		{
+			"id": "9a4698cb-8522-2d3e-ea97-b10e2ad934c0",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:8000/api/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1606369071110,
+			"name": "get all",
+			"description": "all users",
+			"collectionId": "2d60ca21-97a3-f501-12aa-de44147671db",
+			"responses": []
+		},
+		{
+			"id": "b691671c-1d72-c785-54f5-774a63c43c08",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/givepoints",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "points",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "55",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1606382671191,
+			"name": "givepoints",
+			"description": "givepoints",
+			"collectionId": "2d60ca21-97a3-f501-12aa-de44147671db",
+			"responses": []
+		},
+		{
+			"id": "bea27f9a-9304-b2e6-9f84-5caa08bf4de2",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:8000/api/40",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1606369127631,
+			"name": "delete",
+			"description": "Delete users",
+			"collectionId": "2d60ca21-97a3-f501-12aa-de44147671db",
+			"responses": []
+		},
+		{
+			"id": "c4e9fc01-b464-d47e-263b-0f5825742bc6",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAccept: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/api/submit",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "Test 22",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "age",
+					"value": "20",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "points",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "address",
+					"value": "Test Address",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1606369384436,
+			"name": "create",
+			"description": "create user",
+			"collectionId": "2d60ca21-97a3-f501-12aa-de44147671db",
+			"responses": []
+		},
+		{
+			"id": "fe5c0459-26b8-7218-375a-66d23cf78e93",
+			"headers": "",
+			"headerData": [],
+			"url": "http://127.0.0.1:8000/api/40",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1606369095160,
+			"name": "get 1",
+			"description": "get user",
+			"collectionId": "2d60ca21-97a3-f501-12aa-de44147671db",
+			"responses": []
+		}
+	]
+}
